@@ -148,7 +148,7 @@ resource embeddingsModelDeployment 'Microsoft.CognitiveServices/accounts/deploym
       version: openAiSettings.embeddingsModel.version
     }
     scaleSettings: {
-      scaleType: 'Standard'
+      scaleType: 'Manual'
     }
   }
 }
@@ -163,7 +163,7 @@ resource completionsModelDeployment 'Microsoft.CognitiveServices/accounts/deploy
       version: openAiSettings.completionsModel.version
     }
     scaleSettings: {
-      scaleType: 'Standard'
+      scaleType: 'Manual'
     }
   }
   dependsOn: [
