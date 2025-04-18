@@ -36,7 +36,7 @@ param mongoDbUserName string
 param mongoDbPassword string
 
 @description('Git repository URL for the application source. This defaults to the [`Azure/Vector-Search-Ai-Assistant`](https://github.com/Azure/Vector-Search-AI-Assistant-MongoDBvCore.git) repository.')
-param appGitRepository string = 'https://github.com/Azure/Vector-Search-AI-Assistant-MongoDBvCore.git'
+param appGitRepository string = 'https://github.com/brianhtnb/Vector-Search-AI-Assistant-MongoDBvCore.git'
 
 @description('Git repository branch for the application source. This defaults to the [**main** branch of the `Azure/Vector-Search-Ai-Assistant-MongoDBvCore`](https://github.com/Azure/Vector-Search-AI-Assistant-MongoDBvCore/tree/main) repository.')
 param appGetRepositoryBranch string = 'main'
@@ -48,8 +48,8 @@ var openAiSettings = {
   maxCompletionTokens: '500'
   maxEmbeddingTokens: '8000'
   completionsModel: {
-    name: 'gpt-35-turbo'
-    version: '0301'
+    name: 'gpt-4o-mini'
+    version: '2024-05-13'
     deployment: {
       name: 'completions'
     }
