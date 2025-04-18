@@ -122,7 +122,7 @@ All connection information for Azure Cosmos DB and Azure OpenAI Service is zero-
 
 **Note:** You must have access to Azure OpenAI Service from your subscription before attempting to deploy this application.
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FVector-Search-Ai-Assistant-MongoDBvCore%2Fmain%2Fazuredeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fbrianhtnb%2FVector-Search-AI-Assistant-MongoDBvCore%2Fmain%2Fazuredeploy.json)
 
 The provided ARM or Bicep Template will provision the following resources:
 1. Azure Cosmos DB for MongoDB vCore. This stores retail data with IVF or HNSW vectors and the user prompts and completions from the chat application.
