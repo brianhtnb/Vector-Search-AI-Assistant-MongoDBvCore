@@ -149,6 +149,7 @@ resource embeddingsModelDeployment 'Microsoft.CognitiveServices/accounts/deploym
     }
     scaleSettings: {
       scaleType: 'Manual'
+      capacity: 1
     }
   }
 }
@@ -164,6 +165,7 @@ resource completionsModelDeployment 'Microsoft.CognitiveServices/accounts/deploy
     }
     scaleSettings: {
       scaleType: 'Manual'
+      capacity: 1
     }
   }
   dependsOn: [
