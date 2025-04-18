@@ -196,7 +196,8 @@
           "version": "[variables('openAiSettings').embeddingsModel.version]"
         },
         "scaleSettings": {
-          "scaleType": "Manual"
+          "scaleType": "Manual",
+          "capacity": 1
         }
       },
       "dependsOn": [
