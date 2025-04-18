@@ -163,8 +163,7 @@ resource completionsModelDeployment 'Microsoft.CognitiveServices/accounts/deploy
       version: openAiSettings.completionsModel.version
     }
     scaleSettings: {
-      scaleType: 'Manual'
-      capacity: 1
+      scaleType: 'Standard'
     }
   }
   dependsOn: [
