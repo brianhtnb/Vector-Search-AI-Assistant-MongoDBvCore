@@ -86,7 +86,7 @@
       "maxCompletionTokens": "500",
       "maxEmbeddingTokens": "8000",
       "completionsModel": {
-        "name": "gpt-4o-mini",
+        "name": "gpt-4o",
         "version": "2024-05-13",
         "deployment": {
           "name": "completions"
