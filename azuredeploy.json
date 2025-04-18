@@ -214,7 +214,8 @@
           "version": "[variables('openAiSettings').completionsModel.version]"
         },
         "scaleSettings": {
-          "scaleType": "Standard"
+          "scaleType": "Manual",
+          "capacity": 1
         }
       },
       "dependsOn": [
