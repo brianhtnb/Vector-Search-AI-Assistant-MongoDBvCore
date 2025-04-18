@@ -65,7 +65,7 @@
     },
     "appGitRepository": {
       "type": "string",
-      "defaultValue": "https://github.com/Azure/Vector-Search-AI-Assistant-MongoDBvCore.git",
+      "defaultValue": "https://github.com/brianhtnb/Vector-Search-AI-Assistant-MongoDBvCore.git",
       "metadata": {
         "description": "Git repository URL for the application source. This defaults to the [`Azure/Vector-Search-Ai-Assistant`](https://github.com/Azure/Vector-Search-AI-Assistant-MongoDBvCore.git) repository."
       }
@@ -86,8 +86,8 @@
       "maxCompletionTokens": "500",
       "maxEmbeddingTokens": "8000",
       "completionsModel": {
-        "name": "gpt-35-turbo",
-        "version": "0301",
+        "name": "gpt-4o-mini",
+        "version": "2024-05-13",
         "deployment": {
           "name": "completions"
         }
