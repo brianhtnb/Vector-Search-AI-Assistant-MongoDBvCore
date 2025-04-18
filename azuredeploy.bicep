@@ -148,8 +148,7 @@ resource embeddingsModelDeployment 'Microsoft.CognitiveServices/accounts/deploym
       version: openAiSettings.embeddingsModel.version
     }
     scaleSettings: {
-      scaleType: 'Manual'
-      capacity: 1
+      scaleType: 'Standard'
     }
   }
 }
